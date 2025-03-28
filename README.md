@@ -1,11 +1,6 @@
-# rpi_ble_server
+# rpi-with-splash-screen
 
-Build a bluetooth low enery service for a Raspberry Pi.
-
-Build images to compile the ble server - written in Rust, and an
-image to run rpi-image gen to build a raspberry pi image
-
-clone this repository and run the build script
+Add a splash screen to a custom raspberry pi image with rpi-image-gen and Plymouth.
 
 ```sh
 git clone https://github.com/jonnymacs/rpi-with-splash-screen
