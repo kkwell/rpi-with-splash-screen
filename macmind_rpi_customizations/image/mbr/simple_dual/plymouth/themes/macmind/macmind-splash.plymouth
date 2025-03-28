@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=MacMind Splash
+Description=A MacMind themed splash screen
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/macmind-splash/
+ScriptFile=/usr/share/plymouth/themes/macmind-splash/macmind-splash.script
