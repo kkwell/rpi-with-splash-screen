@@ -2,9 +2,16 @@
 
 Add a splash screen to a custom raspberry pi image with rpi-image-gen and Plymouth.
 
-This has been tested on both ARM64 Mac and AMD64 Mac laptops.
+The build process has been tested on both ARM64 Mac and AMD64 Mac laptops.
 
 AMD is much slower as expected due to emulation.
+
+# configure for your target board
+
+In `macmind_rpi_customizations/config/macmind_rpi_w_splash.cfg` you will need to set the device class to either
+pi4 or pi5 depending on your board
+
+# build and install
 
 ```sh
 git clone https://github.com/jonnymacs/rpi-with-splash-screen
