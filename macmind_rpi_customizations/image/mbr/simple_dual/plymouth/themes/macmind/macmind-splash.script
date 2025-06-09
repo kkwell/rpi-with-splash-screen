@@ -1,4 +1,4 @@
-image = Image("MacMind-Logo.png");
+image = Image("bootlogo.png");
 sprite = Sprite();
 
 sprite.SetImage(image);
